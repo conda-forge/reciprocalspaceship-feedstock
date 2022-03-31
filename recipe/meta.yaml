@@ -1,5 +1,5 @@
 {% set name = "reciprocalspaceship" %}
-{% set version = "0.9.18" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/reciprocalspaceship-{{ version }}.tar.gz
-  sha256: 00e56bfe86eb99c23297d2357d483fb0ccfe5543017c778d37aa3c02bb1f48b4
+  sha256: aaa94db17ba47861e24914d510a4c65a19b756132b1767daf805e63aeff3d354
 
 build:
   number: 0
