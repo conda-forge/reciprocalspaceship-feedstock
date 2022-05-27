@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/reciprocalspaceship-{{ version }}.tar.gz
-  sha256: aaa94db17ba47861e24914d510a4c65a19b756132b1767daf805e63aeff3d354
+  sha256: e071e8f1dee9e15e5d42649ad92dd972f9c0a1f9de7c16948f9928493831aa87
 
 build:
   number: 0
