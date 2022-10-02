@@ -22,10 +22,10 @@ requirements:
     - pytest-runner
     - python >3.7
   run:
-    - gemmi >=0.5.5,<=0.5.5
+    - gemmi >=0.5.5,<=0.5.7
     - ipython
     - numpy
-    - pandas >=1.2.0,<=1.4.3
+    - pandas >=1.2.0,<=1.4.4
     - python >3.7
     - scipy
 
