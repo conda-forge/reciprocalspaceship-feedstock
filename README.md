@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reciprocalspace
 
 Summary: Tools for exploring reciprocal space
 
-Development: https://github.com/Hekstra-Lab/reciprocalspaceship/
+Development: https://github.com/rs-station/reciprocalspaceship/
 
-Documentation: https://hekstra-lab.github.io/reciprocalspaceship/
+Documentation: https://rs-station.github.io/reciprocalspaceship/
 
 Current build status
 ====================
