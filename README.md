@@ -1,17 +1,17 @@
-About reciprocalspaceship
-=========================
+About reciprocalspaceship-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reciprocalspaceship-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/reciprocalspaceship/
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reciprocalspaceship-feedstock/blob/main/LICENSE.txt)
-
 Summary: Tools for exploring reciprocal space
 
-Development: https://github.com/Hekstra-Lab/reciprocalspaceship/
+Development: https://github.com/rs-station/reciprocalspaceship/
 
-Documentation: https://hekstra-lab.github.io/reciprocalspaceship/
+Documentation: https://rs-station.github.io/reciprocalspaceship/
 
 Current build status
 ====================

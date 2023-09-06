@@ -1,5 +1,5 @@
 {% set name = "reciprocalspaceship" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/reciprocalspaceship-{{ version }}.tar.gz
-  sha256: 880e3ff1ea3137f3895d3e9c3c427d737c203dc47fc93671dcf187db4e970dbd
+  sha256: 512a2128b6b77e5f78e1b69c71974eb78cea1d24b7886c543504ad15da774d1c
 
 build:
   number: 0
@@ -22,10 +22,10 @@ requirements:
     - pytest-runner
     - python >3.7
   run:
-    - gemmi >=0.5.5,<=0.5.7
+    - gemmi >=0.5.5,<=0.6.2
     - ipython
     - numpy
-    - pandas >=1.2.0,<=1.4.4
+    - pandas >=1.4.0,<=2.0.3
     - python >3.7
     - scipy
 
