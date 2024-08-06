@@ -20,13 +20,13 @@ requirements:
   host:
     - pip
     - pytest-runner
-    - python >3.7
+    - python >=3.9
   run:
-    - gemmi >=0.5.5,<=0.6.2
+    - gemmi >=0.5.5,<=0.6.6
     - ipython
     - numpy
-    - pandas >=1.4.0,<=2.0.3
-    - python >3.7
+    - pandas >=2.2.2, <=2.2.2
+    - python >=3.9
     - scipy
 
 test:
