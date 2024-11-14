@@ -21,7 +21,7 @@ requirements:
   host:
     - pip
     - pytest-runner
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - setuptools
   run:
     - gemmi >=0.5.5,<=0.6.7
@@ -30,7 +30,7 @@ requirements:
     - pandas >=2.2.2, <=2.2.3
     - python >={{ python_min }}
     - scipy
-    - msgpack
+    - msgpack-python
 
 test:
   imports:
