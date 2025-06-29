@@ -1,5 +1,5 @@
 {% set name = "reciprocalspaceship" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/reciprocalspaceship-{{ version }}.tar.gz
-  sha256: 2915ac8da990ddcdd1a83e7017023c9fc4e421b4f7001394293e626388a7c0b5
+  sha256: 5f5b00da2417d1aa0280a222c9dcea057bd6babf7bb53c5271d4821326652c9f
 
 build:
   number: 0
@@ -24,10 +24,10 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - gemmi >=0.5.5,<=0.6.7
+    - gemmi >=0.7.0,<=0.7.1
     - ipython
     - numpy
-    - pandas >=2.2.2, <=2.2.3
+    - pandas >=2.2.2,<=2.2.3
     - python >={{ python_min }}
     - scipy
     - msgpack-python
@@ -42,6 +42,7 @@ test:
     - rs.mtzdump --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/reciprocalspaceship/
