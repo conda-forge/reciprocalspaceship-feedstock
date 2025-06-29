@@ -24,10 +24,10 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - gemmi >=0.5.5,<=0.6.7
+    - gemmi >=0.7.0,<=0.7.1
     - ipython
     - numpy
-    - pandas >=2.2.2, <=2.2.3
+    - pandas >=2.2.2,<=2.2.3
     - python >={{ python_min }}
     - scipy
     - msgpack-python
@@ -42,6 +42,7 @@ test:
     - rs.mtzdump --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/reciprocalspaceship/
