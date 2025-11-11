@@ -1,5 +1,5 @@
 {% set name = "reciprocalspaceship" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/reciprocalspaceship-{{ version }}.tar.gz
-  sha256: f9a36a25cd50b46639a411d460aa7982c89a7c7e0dd20b5648cd5dcfee94e512
+  sha256: 5957028e0d9b050aebc8d4181625eda015652b6f8f2023567b65fd347113b9d9
 
 build:
   number: 0
@@ -24,14 +24,15 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - gemmi >=0.7.0,<=0.7.1
+    - gemmi >=0.7.0,<=0.7.3
     - ipython
     - numpy
-    - pandas >=2.2.2,<=2.2.3
+    - pandas >=2.2.2,<=2.3.3
     - python >={{ python_min }}
     - scipy
     - msgpack-python
     - setuptools
+    - joblib
 
 test:
   imports:
