@@ -24,14 +24,15 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - gemmi >=0.7.0,<=0.7.1
+    - gemmi >=0.7.0,<=0.7.3
     - ipython
     - numpy
-    - pandas >=2.2.2,<=2.2.3
+    - pandas >=2.2.2,<=2.3.3
     - python >={{ python_min }}
     - scipy
     - msgpack-python
     - setuptools
+    - joblib
 
 test:
   imports:
